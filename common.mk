@@ -158,7 +158,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     frameworks/native/data/etc/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
-    frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
+    frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml \
+    $(LOCAL_PATH)/etc/camera/pureShot_parameter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pureShot_parameter.xml \
+    $(LOCAL_PATH)/etc/camera/odin_motiontuning.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/odin_motiontuning.xml
 
 # Display
 PRODUCT_PACKAGES += \
@@ -510,6 +512,10 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
+
+# init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc
 
 # PRODUCT_BOOT_JARS += \
 #     WfdCommon
