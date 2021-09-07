@@ -1207,7 +1207,6 @@ vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/init/imsdaemon.rc
 vendor/etc/init/init-qcril-data.rc
 vendor/etc/init/init.charge_logger.rc
-vendor/etc/init/init.embmssl_server.rc
 vendor/etc/init/init.mfp-daemon.rc
 vendor/etc/init/init.mishow.ctl.rc
 vendor/etc/init/init.qdmastats.rc
