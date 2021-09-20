@@ -1064,11 +1064,9 @@ vendor/etc/camera/model_back.dlc
 vendor/etc/camera/model_front.dlc
 vendor/etc/camera/model_front_mibokeh_video.dlc
 vendor/etc/camera/model_glass.dlc
-vendor/etc/camera/odin_motiontuning.xml
 vendor/etc/camera/person_det_dsp.dlc
 vendor/etc/camera/person_reid_gpu.dlc
 vendor/etc/camera/preview_bokeh_params.json
-vendor/etc/camera/pureShot_parameter.xml
 vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/siq_ocl_cache
